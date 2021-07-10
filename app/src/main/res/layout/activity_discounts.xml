@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#FFF0F5"
     android:orientation="vertical"
-    tools:context="com.example.rewardingfitness.discounts">
+    tools:context="com.example.rewardingfitnessapp.Discounts">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
