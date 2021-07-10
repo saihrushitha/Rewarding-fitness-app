@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF0F5"
+    android:orientation="vertical"
+    tools:context="com.example.rewardingfitness.discounts">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#D8BFD8"
+        android:textAlignment="textEnd"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Discounts"
+        app:titleTextColor="#B22222"
+        android:gravity="end"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:onClick="Discount1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30.0dp"
+                android:layout_marginTop="400.0dp"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="68dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:gravity="center"
+                            android:padding="7.0dp"
+                            android:text="1500 Cal"
+                            android:textAlignment="center"
+                            android:textColor="#B22222"
+                            android:textSize="30.0dp" />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="162dp"
+                        android:layout_height="61dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/loff" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="Discount3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:gravity="center"
+                            android:padding="7.0dp"
+                            android:text="3000 Cal"
+                            android:textAlignment="center"
+                            android:textColor="#B22222"
+                            android:textSize="30.0dp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="162dp"
+                        android:layout_height="61dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/moff" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="Discount3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:gravity="center"
+                            android:padding="7.0dp"
+                            android:text="7000 Cal"
+                            android:textAlignment="center"
+                            android:textColor="#B22222"
+                            android:textSize="30.0dp" />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="162dp"
+                        android:layout_height="61dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/soff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="Discount4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:gravity="center"
+                            android:padding="7.0dp"
+                            android:text="15000 Cal"
+                            android:textAlignment="center"
+                            android:textColor="#B22222"
+                            android:textSize="30.0dp" />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="162dp"
+                        android:layout_height="61dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/koff" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
